@@ -300,35 +300,20 @@ function Landing() {
           </p>
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {[
-              {
-                name: "Ana P.",
-                role: "Aprovada — Concurso Federal",
-                text:
-                  "Nunca tinha treinado tanto no estilo da banca. Depois desse caderno, minha porcentagem de acerto disparou.",
-              },
-              {
-                name: "Rafael M.",
-                role: "Concurseiro há 2 anos",
-                text:
-                  "Os comentários mostram EXATAMENTE onde a banca tenta te enganar. Vale cada centavo.",
-              },
-              {
-                name: "Juliana S.",
-                role: "Aluna",
-                text:
-                  "Prático, direto e no ponto. Consegui identificar os meus erros repetidos e finalmente evoluir.",
-              },
-            ].map((t) => (
+              "https://profjonathanrocha.com.br/wp-content/uploads/2025/02/1.webp",
+              "https://profjonathanrocha.com.br/wp-content/uploads/2025/02/2.webp",
+              "https://profjonathanrocha.com.br/wp-content/uploads/2025/02/3.webp",
+            ].map((src, i) => (
               <div
-                key={t.name}
-                className="rounded-2xl bg-neutral-900 border border-white/10 p-6 flex flex-col"
+                key={src}
+                className="rounded-2xl bg-neutral-900 border border-white/10 overflow-hidden"
               >
-                <div className="text-yellow-400 text-lg">★★★★★</div>
-                <p className="mt-3 text-neutral-200 italic">"{t.text}"</p>
-                <div className="mt-6 pt-4 border-t border-white/10">
-                  <p className="font-bold">{t.name}</p>
-                  <p className="text-xs text-neutral-400">{t.role}</p>
-                </div>
+                <img
+                  src={src}
+                  alt={`Depoimento de aluno ${i + 1} — Caderno PMMA`}
+                  loading="lazy"
+                  className="w-full h-auto block"
+                />
               </div>
             ))}
           </div>
