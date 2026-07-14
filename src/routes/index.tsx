@@ -9,17 +9,17 @@ const WHATSAPP_URL =
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Caderno de 400 Questões Comentadas — Banca CESPE/CEBRASPE" },
+      { title: "Caderno PMMA — 400 Questões CESPE/CEBRASPE Comentadas" },
       {
         name: "description",
         content:
-          "400 questões inéditas e comentadas no padrão CESPE/CEBRASPE. Treine no estilo real da prova, entenda cada erro e acelere sua aprovação.",
+          "Concurso PMMA 2025: 400 questões inéditas e comentadas no padrão CESPE/CEBRASPE. Treine no estilo real da prova e acelere sua aprovação na Polícia Militar do Maranhão.",
       },
-      { property: "og:title", content: "Caderno de 400 Questões CESPE/CEBRASPE" },
+      { property: "og:title", content: "Caderno PMMA — 400 Questões CESPE/CEBRASPE" },
       {
         property: "og:description",
         content:
-          "400 questões comentadas no padrão da banca CESPE/CEBRASPE. Acesso imediato, garantia de 7 dias e bônus exclusivos.",
+          "400 questões comentadas no padrão CESPE/CEBRASPE com foco total no concurso da PMMA. Acesso imediato, garantia de 7 dias e bônus exclusivos.",
       },
       { property: "og:type", content: "website" },
     ],
@@ -66,16 +66,16 @@ function Landing() {
         />
         <div className="relative max-w-6xl mx-auto px-4 pt-10 sm:pt-16 pb-8 text-center">
           <span className="inline-block px-3 py-1 rounded-full border border-yellow-400/40 bg-yellow-400/10 text-yellow-300 text-xs font-semibold tracking-wider uppercase mb-6">
-            Banca CESPE / CEBRASPE
+            Concurso PMMA · Banca CESPE / CEBRASPE
           </span>
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-black leading-tight tracking-tight">
-            Domine a banca <span className="text-yellow-400">CESPE/CEBRASPE</span> com{" "}
-            <span className="text-yellow-400">400 questões comentadas</span> no padrão real da
-            prova 🚀
+            Passe na <span className="text-yellow-400">PMMA</span> treinando com{" "}
+            <span className="text-yellow-400">400 questões comentadas</span> no padrão
+            CESPE/CEBRASPE 🚔
           </h1>
           <p className="mt-6 max-w-3xl mx-auto text-base sm:text-lg text-neutral-300">
-            Treine no <strong className="text-white">mesmo estilo Certo/Errado</strong> da banca,
-            entenda a lógica das pegadinhas e transforme conhecimento em pontuação real na prova.
+            Preparação focada 100% no edital da <strong className="text-white">Polícia Militar do Maranhão</strong>.
+            Treine no estilo Certo/Errado da banca, desarme as pegadinhas e chegue no dia da prova pronto para farda.
           </p>
 
           <div className="mt-8 flex justify-center">
@@ -166,20 +166,19 @@ function Landing() {
               O que você recebe
             </p>
             <h2 className="mt-2 text-2xl sm:text-4xl font-black">
-              400 questões exclusivas, inéditas e <span className="text-yellow-400">comentadas em detalhes</span>
+              400 questões focadas na <span className="text-yellow-400">PMMA</span>, inéditas e comentadas em detalhes
             </h2>
             <p className="mt-4 text-neutral-300">
-              Estude de forma estratégica, entenda cada erro e foque no que realmente faz diferença
-              na hora da prova.
+              Conteúdo alinhado ao edital da Polícia Militar do Maranhão. Estude o que realmente cai e chegue na prova com vantagem real sobre os outros candidatos.
             </p>
             <ul className="mt-6 space-y-3 text-neutral-200">
               {[
                 "100% no padrão CESPE/CEBRASPE (Certo/Errado)",
-                "Questões comentadas por especialistas aprovados",
+                "Foco total no edital do concurso PMMA",
+                "Comentadas por especialistas aprovados",
                 "Gabarito com justificativa item a item",
                 "Acesso vitalício em qualquer dispositivo",
-                "Atualizado com o formato mais recente da banca",
-                "Bônus exclusivos inclusos",
+                "Bônus exclusivos para concurseiros PMMA",
               ].map((f) => (
                 <li key={f} className="flex gap-3">
                   <span className="mt-1 inline-flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-yellow-400 text-black font-bold text-xs">
