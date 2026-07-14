@@ -166,20 +166,19 @@ function Landing() {
               O que você recebe
             </p>
             <h2 className="mt-2 text-2xl sm:text-4xl font-black">
-              400 questões exclusivas, inéditas e <span className="text-yellow-400">comentadas em detalhes</span>
+              400 questões focadas na <span className="text-yellow-400">PMMA</span>, inéditas e comentadas em detalhes
             </h2>
             <p className="mt-4 text-neutral-300">
-              Estude de forma estratégica, entenda cada erro e foque no que realmente faz diferença
-              na hora da prova.
+              Conteúdo alinhado ao edital da Polícia Militar do Maranhão. Estude o que realmente cai e chegue na prova com vantagem real sobre os outros candidatos.
             </p>
             <ul className="mt-6 space-y-3 text-neutral-200">
               {[
                 "100% no padrão CESPE/CEBRASPE (Certo/Errado)",
-                "Questões comentadas por especialistas aprovados",
+                "Foco total no edital do concurso PMMA",
+                "Comentadas por especialistas aprovados",
                 "Gabarito com justificativa item a item",
                 "Acesso vitalício em qualquer dispositivo",
-                "Atualizado com o formato mais recente da banca",
-                "Bônus exclusivos inclusos",
+                "Bônus exclusivos para concurseiros PMMA",
               ].map((f) => (
                 <li key={f} className="flex gap-3">
                   <span className="mt-1 inline-flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-yellow-400 text-black font-bold text-xs">
