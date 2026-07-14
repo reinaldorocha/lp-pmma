@@ -209,6 +209,52 @@ function Landing() {
         </div>
       </section>
 
+      {/* BREAKDOWN */}
+      <section className="py-16 sm:py-20 bg-[#0f0f0f] border-y border-white/5">
+        <div className="max-w-6xl mx-auto px-4">
+          <p className="text-center text-yellow-400 text-sm font-bold uppercase tracking-widest">
+            Divisão das 400 questões
+          </p>
+          <h2 className="mt-2 text-center text-2xl sm:text-4xl font-black">
+            Cobertura <span className="text-yellow-400">completa</span> da legislação da PMMA
+          </h2>
+          <div className="mt-12 grid gap-6 md:grid-cols-3">
+            {[
+              {
+                qtd: "50",
+                title: "Decreto nº 88.777",
+                subtitle: "R-200 — Regulamento para as Polícias Militares e Corpos de Bombeiros Militares",
+              },
+              {
+                qtd: "50",
+                title: "Lei nº 14.751/2023",
+                subtitle: "Lei Orgânica Nacional das Polícias Militares e dos Corpos de Bombeiros Militares",
+              },
+              {
+                qtd: "300",
+                title: "Estatuto da PMMA",
+                subtitle: "Estatuto dos Policiais Militares do Estado do Maranhão — foco máximo no que mais cai",
+              },
+            ].map((b) => (
+              <div
+                key={b.title}
+                className="rounded-2xl bg-neutral-900/70 border border-white/10 p-6 hover:border-yellow-400/40 transition text-center"
+              >
+                <div className="text-5xl sm:text-6xl font-black text-yellow-400 leading-none">
+                  {b.qtd}
+                </div>
+                <p className="mt-1 text-xs uppercase tracking-widest text-neutral-400">questões</p>
+                <h3 className="mt-4 text-lg font-bold">{b.title}</h3>
+                <p className="mt-2 text-sm text-neutral-300 leading-relaxed">{b.subtitle}</p>
+              </div>
+            ))}
+          </div>
+          <p className="mt-8 text-center text-neutral-400 text-sm">
+            Total: <span className="text-white font-bold">400 questões inéditas</span> comentadas no padrão CESPE/CEBRASPE.
+          </p>
+        </div>
+      </section>
+
       {/* BENEFITS */}
       <section className="py-16 sm:py-20 bg-[#0f0f0f] border-y border-white/5">
         <div className="max-w-6xl mx-auto px-4 text-center">
