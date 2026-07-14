@@ -66,16 +66,16 @@ function Landing() {
         />
         <div className="relative max-w-6xl mx-auto px-4 pt-10 sm:pt-16 pb-8 text-center">
           <span className="inline-block px-3 py-1 rounded-full border border-yellow-400/40 bg-yellow-400/10 text-yellow-300 text-xs font-semibold tracking-wider uppercase mb-6">
-            Banca CESPE / CEBRASPE
+            Concurso PMMA · Banca CESPE / CEBRASPE
           </span>
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-black leading-tight tracking-tight">
-            Domine a banca <span className="text-yellow-400">CESPE/CEBRASPE</span> com{" "}
-            <span className="text-yellow-400">400 questões comentadas</span> no padrão real da
-            prova 🚀
+            Passe na <span className="text-yellow-400">PMMA</span> treinando com{" "}
+            <span className="text-yellow-400">400 questões comentadas</span> no padrão
+            CESPE/CEBRASPE 🚔
           </h1>
           <p className="mt-6 max-w-3xl mx-auto text-base sm:text-lg text-neutral-300">
-            Treine no <strong className="text-white">mesmo estilo Certo/Errado</strong> da banca,
-            entenda a lógica das pegadinhas e transforme conhecimento em pontuação real na prova.
+            Preparação focada 100% no edital da <strong className="text-white">Polícia Militar do Maranhão</strong>.
+            Treine no estilo Certo/Errado da banca, desarme as pegadinhas e chegue no dia da prova pronto para farda.
           </p>
 
           <div className="mt-8 flex justify-center">
