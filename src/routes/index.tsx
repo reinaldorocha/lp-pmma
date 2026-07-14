@@ -2,9 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import heroImage from "../assets/hero-caderno.jpg";
 
-const CHECKOUT_URL = "#oferta";
+const CHECKOUT_URL = "https://pay.kiwify.com.br/ruED5zg";
 const WHATSAPP_URL =
-  "https://api.whatsapp.com/send/?phone=5500000000000&text=Ol%C3%A1%21+Quero+informa%C3%A7%C3%B5es+sobre+o+Caderno+de+400+Quest%C3%B5es+CESPE%2FCEBRASPE";
+  "https://api.whatsapp.com/send/?phone=5586988812196&text=Ol%C3%A1%21+Quero+informa%C3%A7%C3%B5es+sobre+o+Caderno+de+400+Quest%C3%B5es+CESPE%2FCEBRASPE";
 
 export const Route = createFileRoute("/")({
   head: () => ({
