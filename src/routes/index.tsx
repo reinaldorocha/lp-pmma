@@ -9,17 +9,17 @@ const WHATSAPP_URL =
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Caderno de 400 Questões Comentadas — Banca CESPE/CEBRASPE" },
+      { title: "Caderno PMMA — 400 Questões CESPE/CEBRASPE Comentadas" },
       {
         name: "description",
         content:
-          "400 questões inéditas e comentadas no padrão CESPE/CEBRASPE. Treine no estilo real da prova, entenda cada erro e acelere sua aprovação.",
+          "Concurso PMMA 2025: 400 questões inéditas e comentadas no padrão CESPE/CEBRASPE. Treine no estilo real da prova e acelere sua aprovação na Polícia Militar do Maranhão.",
       },
-      { property: "og:title", content: "Caderno de 400 Questões CESPE/CEBRASPE" },
+      { property: "og:title", content: "Caderno PMMA — 400 Questões CESPE/CEBRASPE" },
       {
         property: "og:description",
         content:
-          "400 questões comentadas no padrão da banca CESPE/CEBRASPE. Acesso imediato, garantia de 7 dias e bônus exclusivos.",
+          "400 questões comentadas no padrão CESPE/CEBRASPE com foco total no concurso da PMMA. Acesso imediato, garantia de 7 dias e bônus exclusivos.",
       },
       { property: "og:type", content: "website" },
     ],
