@@ -221,9 +221,9 @@ function Landing() {
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {[
               {
-                qtd: "50",
-                title: "Decreto nº 88.777",
-                subtitle: "R-200 — Regulamento para as Polícias Militares e Corpos de Bombeiros Militares",
+                qtd: "150",
+                title: "Lei Estadual nº 12.896/2026",
+                subtitle: "Lei de Organização Básica da Polícia Militar do Maranhão (1º de junho de 2026)",
               },
               {
                 qtd: "50",
