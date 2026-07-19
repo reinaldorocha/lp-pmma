@@ -9,17 +9,17 @@ const WHATSAPP_URL =
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Caderno PMMA — 400 Questões CESPE/CEBRASPE Comentadas" },
+      { title: "Caderno PMMA — 500 Questões CESPE/CEBRASPE Comentadas" },
       {
         name: "description",
         content:
-          "Concurso PMMA 2025: 400 questões inéditas e comentadas no padrão CESPE/CEBRASPE. Treine no estilo real da prova e acelere sua aprovação na Polícia Militar do Maranhão.",
+          "Concurso PMMA 2025: 500 questões inéditas e comentadas no padrão CESPE/CEBRASPE. Treine no estilo real da prova e acelere sua aprovação na Polícia Militar do Maranhão.",
       },
-      { property: "og:title", content: "Caderno PMMA — 400 Questões CESPE/CEBRASPE" },
+      { property: "og:title", content: "Caderno PMMA — 500 Questões CESPE/CEBRASPE" },
       {
         property: "og:description",
         content:
-          "400 questões comentadas no padrão CESPE/CEBRASPE com foco total no concurso da PMMA. Acesso imediato, garantia de 7 dias e bônus exclusivos.",
+          "500 questões comentadas no padrão CESPE/CEBRASPE com foco total no concurso da PMMA. Acesso imediato, garantia de 7 dias e bônus exclusivos.",
       },
       { property: "og:type", content: "website" },
     ],
@@ -70,7 +70,7 @@ function Landing() {
           </span>
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-black leading-tight tracking-tight">
             Passe na <span className="text-yellow-400">PMMA</span> treinando com{" "}
-            <span className="text-yellow-400">400 questões comentadas</span> no padrão
+            <span className="text-yellow-400">500 questões comentadas</span> no padrão
             CESPE/CEBRASPE 🚔
           </h1>
           <p className="mt-6 max-w-3xl mx-auto text-base sm:text-lg text-neutral-300">
@@ -81,7 +81,7 @@ function Landing() {
           <div className="mt-8 flex justify-center">
             <img
               src={heroImage}
-              alt="Caderno de 400 questões comentadas CESPE/CEBRASPE com tablets"
+              alt="Caderno de 500 questões comentadas CESPE/CEBRASPE com tablets"
               width={1408}
               height={1008}
               className="w-full max-w-3xl rounded-xl shadow-[0_30px_80px_-20px_rgba(250,204,21,0.35)]"
@@ -102,7 +102,7 @@ function Landing() {
           </div>
 
           <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs sm:text-sm text-neutral-400">
-            <span>✔ 400 questões inéditas</span>
+            <span>✔ 500 questões inéditas</span>
             <span>✔ Comentadas por especialistas</span>
             <span>✔ Padrão Certo/Errado</span>
             <span>✔ Garantia de 7 dias</span>
@@ -134,7 +134,7 @@ function Landing() {
                 icon: "⏱️",
                 title: "Muito conteúdo, pouca prática?",
                 body:
-                  "Estudar teoria não basta. As 400 questões te dão o volume de treino que transforma conhecimento em acertos na prova real.",
+                  "Estudar teoria não basta. As 500 questões te dão o volume de treino que transforma conhecimento em acertos na prova real.",
               },
             ].map((c) => (
               <div
@@ -166,7 +166,7 @@ function Landing() {
               O que você recebe
             </p>
             <h2 className="mt-2 text-2xl sm:text-4xl font-black">
-              400 questões focadas na <span className="text-yellow-400">PMMA</span>, inéditas e comentadas em detalhes
+              500 questões focadas na <span className="text-yellow-400">PMMA</span>, inéditas e comentadas em detalhes
             </h2>
             <p className="mt-4 text-neutral-300">
               Conteúdo alinhado ao edital da Polícia Militar do Maranhão. Estude o que realmente cai e chegue na prova com vantagem real sobre os outros candidatos.
@@ -213,7 +213,7 @@ function Landing() {
       <section className="py-16 sm:py-20 bg-[#0f0f0f] border-y border-white/5">
         <div className="max-w-6xl mx-auto px-4">
           <p className="text-center text-yellow-400 text-sm font-bold uppercase tracking-widest">
-            Divisão das 400 questões
+            Divisão das 500 questões
           </p>
           <h2 className="mt-2 text-center text-2xl sm:text-4xl font-black">
             Cobertura <span className="text-yellow-400">completa</span> da legislação da PMMA
@@ -221,9 +221,9 @@ function Landing() {
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {[
               {
-                qtd: "50",
-                title: "Decreto nº 88.777",
-                subtitle: "R-200 — Regulamento para as Polícias Militares e Corpos de Bombeiros Militares",
+                qtd: "150",
+                title: "Lei Estadual nº 12.896/2026",
+                subtitle: "Lei de Organização Básica da Polícia Militar do Maranhão (1º de junho de 2026)",
               },
               {
                 qtd: "50",
@@ -250,7 +250,7 @@ function Landing() {
             ))}
           </div>
           <p className="mt-8 text-center text-neutral-400 text-sm">
-            Total: <span className="text-white font-bold">400 questões inéditas</span> comentadas no padrão CESPE/CEBRASPE.
+            Total: <span className="text-white font-bold">500 questões inéditas</span> comentadas no padrão CESPE/CEBRASPE.
           </p>
         </div>
       </section>
@@ -390,7 +390,7 @@ function Landing() {
 
             <ul className="mt-8 text-left max-w-md mx-auto space-y-2 text-neutral-200 text-sm">
               {[
-                "400 questões comentadas — padrão CESPE/CEBRASPE",
+                "500 questões comentadas — padrão CESPE/CEBRASPE",
                 "Bônus 01: Edital verticalizado",
                 "Bônus 02: Ebook do Concurseiro Iniciante",
                 "Acesso imediato em qualquer dispositivo",
@@ -443,7 +443,7 @@ function Landing() {
               },
               {
                 q: "As questões estão no padrão da CESPE/CEBRASPE?",
-                a: "Sim. Todas as 400 questões foram elaboradas no formato Certo/Errado, exatamente como a banca cobra.",
+                a: "Sim. Todas as 500 questões foram elaboradas no formato Certo/Errado, exatamente como a banca cobra.",
               },
               {
                 q: "O material está atualizado?",
