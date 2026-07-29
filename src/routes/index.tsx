@@ -4,7 +4,7 @@ import heroImage from "../assets/hero-caderno.jpg";
 
 const CHECKOUT_URL = "https://app.profjonathanrocha.com.br/c/xzrewzh";
 const WHATSAPP_URL =
-  "https://api.whatsapp.com/send/?phone=5586988812196&text=Ol%C3%A1%21+Quero+informa%C3%A7%C3%B5es+sobre+o+Caderno+de+400+Quest%C3%B5es+CESPE%2FCEBRASPE";
+  "https://api.whatsapp.com/send/?phone=5586988812196&text=Ol%C3%A1%21+Quero+informa%C3%A7%C3%B5es+sobre+o+Caderno+de+500+Quest%C3%B5es+CESPE%2FCEBRASPE";
 
 export const Route = createFileRoute("/")({
   head: () => ({
